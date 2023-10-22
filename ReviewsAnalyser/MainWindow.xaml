@@ -1,0 +1,22 @@
+﻿<Window x:Class="ReviewsAnalyser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        Title="Reviews Analyser" Height="300" Width="400">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical">
+            <Label Content="Analyse User Reviews" />
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="tbxFileName" Margin="5,3,3,0" Width="200" Height="35"/>
+                <Button Margin="3,3,3,0" Width="60" Height="35" Content="Open File" Click="Button_Click"/>
+            </StackPanel>
+            <Label x:Name="lblStatus" />
+        </StackPanel>
+    </Grid>
+</Window>
