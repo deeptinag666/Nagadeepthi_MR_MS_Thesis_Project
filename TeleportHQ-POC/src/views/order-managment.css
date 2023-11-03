@@ -1,0 +1,501 @@
+.order-managment-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.order-managment-container01 {
+  width: 100%;
+  height: 611px;
+  display: flex;
+  align-items: flex-start;
+  background-size: cover;
+  background-image: url('https://www.deputy.com/uploads/2018/10/The-Most-Popular-Menu-Items-That-You-should-Consider-Adding-to-Your-Restaurant_Content-image1-min-1024x569.png');
+}
+.order-managment-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 840px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 206px;
+}
+.order-managment-header {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #f1f2b5 0%, #135058 100%);
+}
+.order-managment-container03 {
+  flex: 0 0 auto;
+  width: 963px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(217, 217, 217, 0);
+}
+.order-managment-icon {
+  width: 24px;
+  height: 24px;
+}
+.order-managment-text {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
+}
+.order-managment-nav {
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.order-managment-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.order-managment-button {
+  width: var(--dl-size-size-large);
+  background-color: rgba(254, 255, 20, 0.59);
+}
+.order-managment-burger-menu {
+  display: none;
+}
+.order-managment-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.order-managment-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.order-managment-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.order-managment-container04 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.order-managment-image {
+  height: 2rem;
+}
+.order-managment-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-managment-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.order-managment-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.order-managment-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.order-managment-icon10 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.order-managment-gallery-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.order-managment-container05 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00000096;
+}
+.order-managment-container05:hover {
+  opacity: 1;
+}
+.order-managment-container06 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.order-managment-text01 {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.order-managment-text02 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.order-managment-text03 {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.order-managment-image1 {
+  top: 0px;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.order-managment-gallery-card1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.order-managment-container07 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00000096;
+}
+.order-managment-container07:hover {
+  opacity: 1;
+}
+.order-managment-container08 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.order-managment-text04 {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.order-managment-text05 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.order-managment-text06 {
+  color: var(--dl-color-gray-white);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.order-managment-image2 {
+  top: 0px;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.order-managment-container09 {
+  width: 100%;
+  height: 490px;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 1px;
+}
+.order-managment-container10 {
+  width: 581px;
+  height: 402px;
+  display: flex;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.order-managment-ul {
+  width: 520px;
+  height: 318px;
+  margin-left: var(--dl-space-space-threeunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 3px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-color: rgba(60, 138, 81, 0.63);
+}
+.order-managment-text07 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.order-managment-text08 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.order-managment-text09 {
+  font-style: normal;
+  font-weight: 700;
+}
+.order-managment-text10 {
+  font-style: normal;
+  font-weight: 700;
+}
+.order-managment-text11 {
+  font-style: normal;
+  font-weight: 700;
+}
+.order-managment-container11 {
+  width: 1185px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-managment-button1 {
+  width: 138px;
+  height: 39px;
+  font-style: normal;
+  margin-top: 0px;
+  font-weight: 700;
+  margin-left: 1000px;
+  margin-bottom: 0px;
+  background-color: rgba(254, 255, 20, 0.48);
+}
+.order-managment-container12 {
+  width: 583px;
+  height: 442px;
+  display: flex;
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-threeunits);
+  align-items: flex-end;
+  flex-direction: column;
+}
+.order-managment-ul1 {
+  width: 484px;
+  height: 314px;
+  margin-left: var(--dl-space-space-threeunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 3px;
+  background-color: rgba(60, 138, 81, 0.63);
+}
+.order-managment-text12 {
+  font-style: normal;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.order-managment-text13 {
+  font-style: normal;
+  font-weight: 700;
+}
+.order-managment-container13 {
+  width: 100%;
+  height: 442px;
+  display: flex;
+  align-items: flex-start;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://www.caterermiddleeast.com/2021/05/BR82mGsI-Ingredients.jpg');
+}
+.order-managment-form {
+  width: 1184px;
+  height: 330px;
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-twounits);
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-black);
+  border-width: 3px;
+  margin-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(50, 169, 76, 0.66);
+}
+.order-managment-container14 {
+  flex: 0 0 auto;
+  height: 255px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.order-managment-container15 {
+  width: 758px;
+  height: 34px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.order-managment-text14 {
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  text-transform: uppercase;
+}
+.order-managment-textinput {
+  width: 524px;
+  height: 100%;
+}
+.order-managment-container16 {
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.order-managment-text15 {
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  text-transform: uppercase;
+}
+.order-managment-textinput1 {
+  width: 528px;
+  height: 34px;
+}
+.order-managment-button2 {
+  width: 138px;
+  height: 39px;
+  margin-top: 10px;
+  margin-left: 624px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  background-color: rgba(254, 255, 20, 0.78);
+}
+.order-managment-text16 {
+  font-style: normal;
+  font-weight: 700;
+}
+.order-managment-container17 {
+  width: 345px;
+  height: 256px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.order-managment-button3 {
+  width: 187px;
+  height: 157px;
+  margin-top: 10px;
+  margin-left: 110px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  background-color: rgba(254, 255, 20, 0.78);
+}
+.order-managment-text19 {
+  font-style: normal;
+  font-weight: 700;
+}
+@media(max-width: 991px) {
+  .order-managment-icon02 {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .order-managment-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .order-managment-nav {
+    display: none;
+  }
+  .order-managment-btn-group {
+    display: none;
+  }
+  .order-managment-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .order-managment-gallery-card {
+    flex-direction: column;
+  }
+  .order-managment-gallery-card1 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .order-managment-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .order-managment-mobile-menu {
+    padding: 16px;
+  }
+  .order-managment-container05 {
+    max-width: auto;
+  }
+  .order-managment-image1 {
+    top: 0px;
+    left: 0px;
+    right: auto;
+    bottom: auto;
+  }
+  .order-managment-container07 {
+    max-width: auto;
+  }
+  .order-managment-image2 {
+    top: 0px;
+    left: 0px;
+    right: auto;
+    bottom: auto;
+  }
+}
