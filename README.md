@@ -12,7 +12,7 @@ The analyzer will read through and analyse the user reviews and provide percenta
 These review files have manually collected data from Gartner's user reviews collection for respective LCDPs.
 The excel comprises of Positive reviews, negative reviews and business use cases.
 
-**Teleport HQ POC code **
+**Teleport HQ POC code**
 This is a React JS project that can be launched by running npm start. First we need to install the node modules using "npm install" command.
 Then we need to run the command "npm start". It will launch the application.
 
